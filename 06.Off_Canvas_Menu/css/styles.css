@@ -43,7 +43,12 @@ h1 {
 }
 
 button {
+  font-family: inherit;
+  font-size: 110%;
+  padding: 0.75em 1em;
   border: 2px solid currentColor;
+  border-radius: 25px;
+  line-height: 1;
 }
 
 button:hover,
@@ -52,6 +57,7 @@ button:focus,
   background-color: var(--textColor);
   color: var(--backgroundColor);
   border-color: var(--textColor);
+  outline: none;
 }
 
 .nav {
@@ -74,4 +80,16 @@ button:focus,
 .nav a:focus,
 .nav a:active {
   color: var(--menuTextHoverColor);
+}
+
+.offsite-is-open .offsite-container,
+.offsite-is-open .site-container,
+.offsite-container,
+.site-container {
+  transition: all 0.5s ease;
+}
+
+.offsite-is-open .offsite-container,
+.offsite-is-open .site-container {
+  transform: translateX(14rem);
 }
