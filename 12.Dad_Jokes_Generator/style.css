@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #686de0;
+  background-color: #f7ca80;
   font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
@@ -32,15 +32,15 @@ h3 {
 }
 
 .joke {
-  font-size: 32px;
+  font-size: 28px;
   letter-spacing: 1px;
   line-height: 40px;
   margin: 50px auto;
   max-width: 600px;
 }
 
-.btn {
-  background-color: #9f68e0;
+.button {
+  background-color: #333399;
   color: #fff;
   cursor: pointer;
   font-family: inherit;
@@ -51,10 +51,10 @@ h3 {
   padding: 14px 40px;
 }
 
-.btn:focus {
+.button:focus {
   outline: none;
 }
 
-.btn:active {
+.button:active {
   transform: scale(0.98);
 }
