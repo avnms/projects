@@ -14,14 +14,14 @@ body {
   margin: 0;
 }
 
-.key {
+.event {
   border: 1px solid #999;
   background-color: #eee;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
   display: inline-flex;
   align-items: center;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 600;
   padding: 20px;
   flex-direction: column;
   margin: 10px;
@@ -29,7 +29,7 @@ body {
   position: relative;
 }
 
-.key small {
+.event small {
   position: absolute;
   top: -24px;
   left: 0;
@@ -37,4 +37,8 @@ body {
   width: 100%;
   color: #555;
   font-size: 14px;
+}
+
+.hide {
+  display: none;
 }
